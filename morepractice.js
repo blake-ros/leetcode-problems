@@ -16,9 +16,3 @@ const combinedArray = array1.concat(array2);
 //     }
 //   }
 // }
-
-console.log(
-combinedArray.filter((item, index) => {
-  return combinedArray.indexOf(item) === index
-})
-);

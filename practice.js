@@ -1,14 +1,45 @@
 // Reverse a String
 
-const str = 'the quick brown fox';
+const str = 'fox';
 
-let newStr = '';
 
-for(let i = str.length - 1; i >= 0; i--) {
-  newStr += str[i];
+function reverseString(str) {
+  let newStr = '';
+
+  for(let i = str.length - 1; i >= 0; i--) {
+    newStr += str[i];
+  }
+  return newStr;
 }
-
 console.log(newStr);
+
+// newStr = 'xof'
+
+// i = 2, 1, 0, -1
+
+// str.length = 2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -129,9 +160,39 @@ function addIndexes(arr) {
 
 
 
+// Question: Sum of the Odd Numbers
+
+// Create a function which returns the total of all the odd numbers including num
+
+// num will be given as an ODD number
+
+
+// example input addOddToN(5) --> 9
+// 1 + 3 + 5 = 9
+
+
+
+
+
+
+
+
+
+
 
 // JavaScript question:
 
 // What are the primitive data types in JavaScript
 
 // undefined, null, boolean, string, and number
+
+
+
+
+
+// What method would you use to add an elemtn to the end of an array?
+// Answer: array.push
+
+
+// What method would you use to add an elemetn to the beginning of an array?
+// Answer: array.unshiftconst str = 'the quick brown fox';
