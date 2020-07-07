@@ -17,3 +17,8 @@
 
 
 // Answer:
+
+function sumArray(arr) {
+  const newArray = arr.flat(3);
+  return newArray.reduce((accumulator, currentValue) => accumulator + currentValue)
+}

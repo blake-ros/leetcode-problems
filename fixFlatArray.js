@@ -27,3 +27,12 @@
 
 
 // Answer:
+
+function flatten(arr) {
+  let result = [];
+  const arr2 = arr[0]
+  for (let i = 1; i < arr.length; i++) {
+    result = arr2.concat(arr[i]);
+  }
+  return result
+}
