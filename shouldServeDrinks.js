@@ -16,3 +16,11 @@
 
 
 // Answer:
+
+function shouldServeDrinks(age, onBreak) {
+  if (onBreak === false && age >= 18) {
+    return true
+  } else {
+    return false
+  }
+}
