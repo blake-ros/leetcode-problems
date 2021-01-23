@@ -2,6 +2,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+function getButtonText() {
+  return "New Button";
+}
+
 // create a react component
 const App = () => {
   const buttonText = "Click Me!"
@@ -12,6 +16,7 @@ const App = () => {
         </label>
         <input id="name" type="text" />
         <button style={{backgroundColor: "blue", color: "white"}}>{buttonText}</button>
+        <button style={{ backgroundColor: "blue", color: "white" }}>{getButtonText()}</button>
       </div>
   );
 };
