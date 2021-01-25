@@ -7,11 +7,21 @@ const App = () => {
   return (
     <div className="ui container comments">
       <ApprovalCard>
-        <CommentDetail author="Sam" timeAgo="Today at 4:45PM" userText="Nice Post" userAvatar="https://source.unsplash.com/random" />
+        <div>
+          <h4>Warning!</h4>
+          Are you sure you want to do this?
+        </div>
       </ApprovalCard>
 
-      <CommentDetail author="Alex" timeAgo="Today at 2:30AM" userText="Same To You!" userAvatar="https://source.unsplash.com/random" />
-      <CommentDetail author="Jane" timeAgo="Yesterday at 5:00PM" userText="Awesome Thread" userAvatar="https://source.unsplash.com/random" />
+      <ApprovalCard>
+        <CommentDetail author="Sam" timeAgo="Today at 4:45PM" userText="Nice Post" userAvatar="https://source.unsplash.com/random" />
+      </ApprovalCard>
+      <ApprovalCard>
+        <CommentDetail author="Alex" timeAgo="Today at 2:30AM" userText="Same To You!" userAvatar="https://source.unsplash.com/random" />
+      </ApprovalCard>
+      <ApprovalCard>
+        <CommentDetail author="Jane" timeAgo="Yesterday at 5:00PM" userText="Awesome Thread" userAvatar="https://source.unsplash.com/random" />
+      </ApprovalCard>
     </div>
   )
 }
