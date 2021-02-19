@@ -10,7 +10,6 @@ const Convert = ({ language, text }) => {
         key: 'AIzaSyCHUCmpR7cT_yDFHC98CZJy2LTms-IwDlM'
       }
     })
-    console.log('New language or text');
   }, [language, text])
 
   return <div></div>
