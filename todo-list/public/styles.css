@@ -1,0 +1,82 @@
+.center {
+  margin: auto;
+  text-align: center;
+}
+
+.style-input {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 2px;
+  padding: 1.4rem, 2rem 1.6rem;
+  height: 50px;
+}
+
+.style-input input {
+  flex-grow: 1;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  vertical-align: middle;
+}
+
+.style-input button {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  vertical-align: middle;
+}
+
+.background-none {
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+.move-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.todo-item {
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+  border-radius: 2px;
+  border: .5px solid black;
+  padding: 1.4rem, 2rem 1.6rem;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.toggle {
+  width: 35px;
+  height: 35px;
+  margin-top: 5px;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  vertical-align: middle;
+  border: 1px solid darkgrey;
+  -webkit-appearance: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.toggle:checked {
+    width: 35px;
+    height: 35px;
+    margin-top: 5px;
+    background-color: green;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid green;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
